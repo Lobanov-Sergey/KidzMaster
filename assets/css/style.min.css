@@ -340,8 +340,11 @@
     .courses-page__row2 {
       flex-direction: column; } }
 
+.courses-page__img img {
+  border-radius: 20px; }
+
 .courses-page__content {
-  background-color: #fafafa;
+  background-color: #dcdde9;
   max-width: 285px;
   height: 100%;
   border-radius: 20px;
@@ -455,7 +458,7 @@
   @media (max-width: 540px) {
     .right-facilities__item {
       margin: 5px;
-      padding: 30px;
+      padding: 20px;
       width: 80px;
       height: 80px; } }
   .right-facilities__item span {
@@ -648,6 +651,11 @@
   .top-footer__logo {
     margin-bottom: 20px; } }
 
+@media (max-width: 400px) {
+  .top-footer__input {
+    display: flex;
+    flex-direction: column; } }
+
 .top-footer__input input {
   width: 340px;
   padding: 10px;
@@ -657,6 +665,9 @@
   @media (max-width: 992px) {
     .top-footer__input input {
       width: 240px; } }
+  @media (max-width: 400px) {
+    .top-footer__input input {
+      margin-bottom: 5px; } }
 
 .top-footer__btn {
   color: #fff;
